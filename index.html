@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Captcha Generator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="characters">
+
+        </div>
+        <label for="" id="length-container">
+            <span>Uzunluk:</span>
+            <select name="" id="length">
+                <option value="5">5</option>    
+                <option value="6">6</option>    
+                <option value="7">7</option>    
+                <option value="8">8</option>    
+                <option value="9">9</option>    
+                <option value="10">10</option>    
+            </select>
+            <i class="fa fa-refresh" id="refresh" aria-hidden="true"></i>
+        </label>
+        <input type="text" id="captcha" placeholder="Capthca">
+        <button id="submit">Doğrula</button>
+    </div>
+    <script src="/public/js/main.js"></script>
+</body>
+</html>
